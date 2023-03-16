@@ -23,35 +23,29 @@
         height: 85vh;
         width: 100%;
         padding: 20px;
-        background-color: aqua;
         display: flex;
         flex-direction: column;
     }
 
     .preview{
         flex: 1;
-        padding: 10px;
-        background-color: blueviolet;
+        margin: 10px;
+        border-radius: 20px;
+        border: 2px blueviolet solid;
     }
 
     .bottom-content{
         display: flex;
-        background-color: brown;
         height: auto;
         flex: 2;
         margin-top: 20px;
     }
 
-    .teaching-content{
+    .teaching-content, .progress-content{
+        margin: 10px 10px 0;
         flex: 1;
-        background-color: blue;
+        background-color: #222222;
+        border-radius: 20px;
     }
 
-    .progress-content{
-        flex: 1;
-        background-color: aquamarine;
-    }
-
-
-   
 </style>

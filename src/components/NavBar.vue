@@ -31,12 +31,14 @@ const menuSelected = reactive({
     margin: 10px;
     justify-content: space-around;
     border-radius: 10px;
-    color: grey;
-    width: 2%;
+    color: white;
     align-items: center;
     padding: 10px;
   }
 
+  .navBar>*{
+    margin: 5px;
+  }
   .active{
     color: white;
   }

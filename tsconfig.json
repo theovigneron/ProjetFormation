@@ -7,6 +7,10 @@
       "@/*": ["./src/*"]
     },
     "target":"ESNext",
+    "types": [
+      "vite/client", // if using vite
+      // ...
+    ]
   },
   
   "references": [
